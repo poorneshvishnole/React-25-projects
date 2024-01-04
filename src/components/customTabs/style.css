@@ -1,0 +1,18 @@
+.tabs {
+  display: flex;
+  background-color: rgb(147, 46, 201);
+  width: fit-content;
+  border-radius: 5px;
+}
+
+.tab {
+  font-size: 30px;
+  padding: 10px 5px;
+  font-weight: bold;
+  font-family: sans-serif;
+  border-radius: 5px;
+}
+
+.active-tab {
+  background-color: yellow;
+}
