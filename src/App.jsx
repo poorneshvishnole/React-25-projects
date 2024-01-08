@@ -1,4 +1,5 @@
 import Accordian from "./components/Accordian/index.jsx";
+import CustomModalPopup from "./components/custom-modal-popup/index.jsx";
 import CustomTabs from "./components/customTabs/index.jsx";
 import ImageSlider from "./components/imageSlider/index.jsx";
 import LightDarkMode from "./components/light-dark-mode/index.jsx";
@@ -23,8 +24,9 @@ const App = () => {
         
         <LightDarkMode />
         <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} />
+          <CustomTabs />
         */}
-      <CustomTabs />
+      <CustomModalPopup />
     </>
   );
 };
